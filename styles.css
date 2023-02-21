@@ -1,0 +1,33 @@
+body{
+    background-color:hsl(220, 15%, 55%);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* set height to 100% of viewport height */
+    width: 100vw; /* set width to 100% of viewport width */
+    margin: 0; /* remove any default margin */
+    padding: 0; /* remove any default padding */
+}
+
+.card{
+    border-radius: 15px;
+}
+
+.card-body{
+    padding-top: 0;
+    padding-bottom: 30px;
+}
+
+
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.card-img-top{
+    border-radius: 28px;
+    padding: 18px;
+}
